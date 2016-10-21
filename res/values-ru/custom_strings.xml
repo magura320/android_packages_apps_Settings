@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Custom Settings -->    
+  <!-- Dashboard -->
+    <string name="header_category_custom">Кастомизация Pure</string>
+    <string name="custom_settings_title">Кастомизация</string>
+    <string name="substratum_title">Substratum</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="superuser_title">Superuser</string>
+
+<!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Не нужно, Опции разработчика уже включены по умолчанию.</string>
+    <!-- ADB debugging notifications -->
+    <string name="enable_adb_custom">Отладка</string>
+    <string name="enable_adb_summary_custom">Включить отладку через (adb) интерфейс</string>
+    <string name="adb_notify">ADB уведомление</string>
+    <string name="adb_notify_summary">Отображать уведомление об отладке</string>
+    <string name="adb_over_network">ADB по сети</string>
+    <string name="adb_over_network_summary">Включить TCP/IP отладку по сети (Wi\u2011Fi, USB networks). Эта опция сбрасывается при перезагрузке</string>
+    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
+<!-- Device Info Settings -->
+    <!-- Rom version -->
+    <string name="rom_version">Версия PureNexus</string>
+    <string name="rom_version_default">Unknown</string>
+    <!-- Vendor version -->
+    <string name="vendor_version">Версия Vendor</string>
+    <string name="vendor_version_default">Неизвестно</string>
+    <!-- Build date -->
+    <string name="build_date">Дата сборки</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+    <!-- Model Name -->
+    <string name="model_name">Модель устройства</string>
+   <!-- Phone info shortcut -->
+    <string name="device_info_title">Инфо о телефоне</string>
+
+<!-- Display Settings -->
+    <!-- Doze pulse options -->
+    <string name="summary_doze_enabled">Включено</string>
+    <string name="summary_doze_disabled">Отключено</string>
+    <string name="doze_overwrite_value_title">Свои параметры</string>
+    <string name="doze_overwrite_value_summary">Настроить значения по своему усмотрению</string>
+    <string name="doze_pulse_title">Настройки пользователя</string>
+    <string name="doze_pulse_duration_in_title">Появление</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Время отображения</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Угасание</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_trigger_pickup_title">Включать экран</string>
+    <string name="doze_trigger_pickup_summary_on">Включение экрана по датчику положения</string>
+    <string name="doze_trigger_pickup_summary_off">Выключено</string>
+    <string name="doze_trigger_notification_title">Включать экрана</string>
+    <string name="doze_trigger_notification_summary_on">Включение экрана при появлениии уведомлений</string>
+    <string name="doze_trigger_notification_summary_off">Выключено</string>
+    <string name="doze_brightness_level_title">Яркость</string>
+    <string name="onehundred_ms">100 мс</string>
+    <string name="twofifty_ms">250 мс</string>
+    <string name="fivehundred_ms_default">500 мс ()</string>
+    <string name="sevenfifty_ms">750 мс</string>
+    <string name="one_second">1 с</string>
+    <string name="onehalf_second">1.5 с</string>
+    <string name="two_second">2 с</string>
+    <string name="twohalf_second">2.5 с</string>
+    <string name="three_second_default">3 с (default)</string>
+    <string name="threehalf_second">3.5 с</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 с</string>
+    <string name="five_second">5 с</string>
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Автоповорот</string>
+    <string name="display_rotation_disabled">Отключен</string>
+    <string name="display_rotation_unit">градусы</string>
+    <string name="display_lockscreen_rotation_title">Поворачивать локскрин</string>
+    <string name="display_rotation_category_title">Градусы поворота</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+<!-- Sound & Notification Settings -->
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Наростание звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время наростания</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Звук ползунка громкости</string>
+    <!-- Category title for Charging sounds -->
+    <string name="power_notifications_category_title">Звуки заряда</string>
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Включено</string>
+    <string name="power_notifications_enable_summary">Звук при подключении/отключении зарядного устройства</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Вибрация</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Звук уведомления</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Тишина</string>
+</resources>
